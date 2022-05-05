@@ -1,0 +1,43 @@
+2022-04-30 11:40:18.262  INFO 11008 --- [restartedMain] c.iiht.tweetapp.UserServiceApplication   : Starting UserServiceApplication using Java 11.0.3 on LTIN304760 with PID 11008 (C:\softwares\component3\UserService\target\classes started by 895232 in C:\softwares\component3\UserService)
+2022-04-30 11:40:18.274  INFO 11008 --- [restartedMain] c.iiht.tweetapp.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-30 11:40:18.346  INFO 11008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-30 11:40:19.972  INFO 11008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 11:40:20.045  INFO 11008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2022-04-30 11:40:20.861  INFO 11008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-04-30 11:40:20.878  INFO 11008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-30 11:40:20.878  INFO 11008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-30 11:40:21.033  INFO 11008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-30 11:40:21.034  INFO 11008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2685 ms
+2022-04-30 11:40:21.618  INFO 11008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 11:40:21.720  INFO 11008 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-30 11:40:22.010  INFO 11008 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-30 11:40:22.174  INFO 11008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-30 11:40:26.207  INFO 11008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-30 11:40:26.247  INFO 11008 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-30 11:40:28.888  INFO 11008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 11:40:28.913  INFO 11008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 11:40:29.191  WARN 11008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 11:40:30.086  INFO 11008 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-04-30 11:40:32.129  INFO 11008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-30 11:40:32.136  INFO 11008 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-04-30 11:40:32.233  INFO 11008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-04-30 11:40:32.253  INFO 11008 --- [restartedMain] c.iiht.tweetapp.UserServiceApplication   : Started UserServiceApplication in 14.768 seconds (JVM running for 16.442)
+2022-04-30 11:41:14.997  INFO 11008 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 11:41:14.999  INFO 11008 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-30 11:41:15.002  INFO 11008 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-04-30 11:41:16.239  INFO 11008 --- [http-nio-8082-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 674 ms
+2022-04-30 11:45:18.436  INFO 11008 --- [http-nio-8082-exec-10] c.i.t.controller.UserServiceController   : In User Service - Registering User
+2022-04-30 11:45:18.437  INFO 11008 --- [http-nio-8082-exec-10] c.i.tweetapp.seviceimpl.UserServiceImpl  : inside user service implementation to register user
+2022-04-30 11:45:20.487  INFO 11008 --- [http-nio-8082-exec-10] c.i.tweetapp.seviceimpl.UserServiceImpl  : registered successfully
+2022-04-30 11:45:35.429  INFO 11008 --- [http-nio-8082-exec-2] c.i.t.controller.UserServiceController   : inside user service to login
+2022-04-30 11:45:35.430  INFO 11008 --- [http-nio-8082-exec-2] c.i.tweetapp.seviceimpl.UserServiceImpl  : inside user service implementation to login
+2022-04-30 11:45:35.431  INFO 11008 --- [http-nio-8082-exec-2] c.i.t.seviceimpl.CustomerDetailsService  : loading the user
+2022-04-30 11:45:38.761  INFO 11008 --- [http-nio-8082-exec-2] c.i.tweetapp.seviceimpl.UserServiceImpl  : login successful
+2022-04-30 11:46:59.455  INFO 11008 --- [http-nio-8082-exec-4] c.i.t.controller.UserServiceController   : inside user service to validate the token
+2022-04-30 11:47:01.297  INFO 11008 --- [http-nio-8082-exec-4] c.i.tweetapp.seviceimpl.UserServiceImpl  : token successfully validated
+2022-04-30 11:47:14.940  INFO 11008 --- [http-nio-8082-exec-3] c.i.t.controller.UserServiceController   : inside user service to validate the token
+2022-04-30 11:47:16.917  INFO 11008 --- [http-nio-8082-exec-3] c.i.tweetapp.seviceimpl.UserServiceImpl  : token successfully validated
+2022-04-30 11:47:49.710  INFO 11008 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-30 11:47:49.931  INFO 11008 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 11:47:49.937  INFO 11008 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-30 11:47:49.954  INFO 11008 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
